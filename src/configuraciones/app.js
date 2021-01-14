@@ -19,7 +19,7 @@ iniciador.crearPermisos();
 iniciador.crearCargos();
 iniciador.crearUsuariosSuperYAdmin();
 
-const preRuta = "/api";
+const preRuta = "";
 
 //se importan las rutas
 app.use(preRuta, indexRuta);
