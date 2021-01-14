@@ -27,6 +27,7 @@
         "@babel/core": "^7.12.10",
         "@babel/node": "^7.12.10",
         "@babel/preset-env": "^7.12.11",
+        "@types/core-js": "^2.5.4",
         "nodemon": "^2.0.7"
     }
 }
