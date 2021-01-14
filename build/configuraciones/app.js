@@ -34,7 +34,7 @@ iniciador.crearModulo();
 iniciador.crearPermisos();
 iniciador.crearCargos();
 iniciador.crearUsuariosSuperYAdmin();
-const preRuta = "/api"; //se importan las rutas
+const preRuta = ""; //se importan las rutas
 
 app.use(preRuta, _index.default);
 app.use(preRuta, _cliente.default);
