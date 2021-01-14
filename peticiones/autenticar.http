@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/inicio-sesion
+Content-Type: application/json
+
+{
+"correo": "super@super.com",
+"contrasena": "2210"
+}
+
+###
+get http://localhost:3000/api/
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmZmYzMmZhYTcyOThhYzcyZTNjNzhhMSIsImNvcnJlbyI6ImFsZXhpc0B5b3BtYWlsLmNvbSIsIm51bWVyb0lkIjoiMTA2MTA4NzQzOSIsImNvbnRyYXNlbmEiOiIkMmEkMTAkZE9HVHJoRk1RcHpCalNQTFF3WUt6dS5UeURVSXJ2eDNxeXRWRjVKdmhBdVQxYTBqMGgucjIiLCJjYXJnbyI6IjVmZmM4MWJhNjdiZjZjMjA2OWE1M2ExOCIsIm5vbWJyZSI6IkFsZXhpcyIsInRlbGVmb25vIjoiMzEzNTg4OTczOCIsIm90cm9zIjoibmFhYWFhYWFhYWFhYWFhYWFhIiwiaWRVc3VhcmlvQ3JlYWRvciI6IjVmZmM4MWJiNjdiZjZjMjA2OWE1M2ExYiIsImNyZWF0ZWRBdCI6IjIwMjEtMDEtMTNUMTc6NTA6NTAuNzg0WiIsInVwZGF0ZWRBdCI6IjIwMjEtMDEtMTNUMTc6NTA6NTAuNzg0WiJ9LCJpYXQiOjE2MTA1NjM0MjAsImV4cCI6MTYxMDY0OTgyMH0.ar8z6sHm5qwvHP0wU3YSDwmU1R9bB1xWvwVJzlocXhI
+
+{
+
+}
+

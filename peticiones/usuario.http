@@ -1,0 +1,55 @@
+
+###
+get http://localhost:3000/api/usuarios b/perfil/5ff7345a4fff6f1304fa57a0
+Content-Type: application/json
+
+{
+
+}
+
+###
+get http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+
+}
+###
+
+POST http://localhost:3000/api/usuarios/crear/
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjp7Il9pZCI6IjVmZmM4MWJiNjdiZjZjMjA2OWE1M2ExYiIsImNvcnJlbyI6InN1cGVyQHN1cGVyLmNvbSIsImNvbnRyYXNlbmEiOiIkMmEkMTAkY25xbHd4WjNQM1A3dVJ5OFVwaDcyZTNXbGVTeEtGUzhwbnlKSk15MVNCVjB4ZGhiZXpUQ0ciLCJudW1lcm9JZCI6IjExMTEiLCJub21icmUiOiJTdXBlciIsImNhcmdvIjoiNWZmYzgxYmE2N2JmNmMyMDY5YTUzYTE5IiwiaWRVc3VhcmlvQ3JlYWRvIjoiU2lzdGVtYSIsImNyZWF0ZWRBdCI6IjIwMjEtMDEtMTFUMTY6NTA6MDMuODE1WiIsInVwZGF0ZWRBdCI6IjIwMjEtMDEtMTNUMjE6MjA6MTkuNTg0WiJ9LCJpYXQiOjE2MTA1NzI5NzAsImV4cCI6MTYxMDY1OTM3MH0.0a25Ua-O2-LT8-VU5jwKHMd7IQEnEHnDVgCWJAyJw4Q
+
+{
+"correo": "alexis@yopmail.com",
+"numeroId": "1061087439",
+"contrasena": "2210",
+"cargo": "5ffc81ba67bf6c2069a53a18",
+"nombre": "Alexis",
+"apellidos": "Dorado Muñoz",
+"telefono": "3135889738",
+"otros": "naaaaaaaaaaaaaaaaa",
+
+"modulo": "usuarios",
+"tipo": "editar",
+"idUsuarioCreador":"5ffc81bb67bf6c2069a53a1b"
+}
+
+
+###
+put http://localhost:3000/api/usuarios/perfil/editar/5ffc81bb67bf6c2069a53a1b
+Content-Type: application/json
+
+{
+    "contrasena": "2210",
+    "numeroId": "1111"
+
+}
+
+###
+delete http://localhost:3000/api/usuarios/perfil/eliminar/5ff73489674bfa132eec280d
+Content-Type: application/json
+
+{
+
+}
